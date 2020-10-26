@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Finding alirawashdeh on GitHub",
+    "screens": [
+      { "name": "1. Google", "url": "https://www.google.com" },
+      { "name": "2. Google search", "url": "https://www.google.com/search?q=alirawashdeh%20github" },
+      { "name": "3. Github", "url": "https://github.com/alirawashdeh" }
+    ]
+  },
+  {
+    "name": "Basic auth example",
+    "username":"user",
+    "password":"password",
+    "screens": [
+      { "name": "1. Protected page", "url": "https://dfdm943axhisa.cloudfront.net" }
+      ]
+  }
+]
