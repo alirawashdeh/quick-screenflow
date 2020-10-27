@@ -13,6 +13,8 @@
     "password":"password",
     "screens": [
       { "name": "1. Protected page", "url": "https://dfdm943axhisa.cloudfront.net" }
-      ]
+      ],
+    "outputscreenshots":true,
+    "outputscreenflow":false
   }
 ]

@@ -10,8 +10,10 @@ const start = async () => {
   for (let i = 0; i < numberOfBatches; i ++) {
     console.log('\n👉 Starting batch ' + (i+1) + ' of ' + numberOfBatches)
 
-    var screenshotArray = await screenshot(config[i])
+  var screenshotArray = await screenshot(config[i])
+  if(config[i].outputscreenshots != null && config[i].outputscreenshots == true)
     await saveScreenshots(config[i], screenshotArray)
+  if(config[i].outputscreenflow == null || config[i].outputscreenflow == true)
     await createPDF(config[i], screenshotArray)
 
     console.log('👍 I finished batch ' + (i+1) + ' of ' + numberOfBatches)

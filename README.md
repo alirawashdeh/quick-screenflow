@@ -37,9 +37,14 @@ Example using basic authentication:
   "password":"password",
   "screens": [
     { "name": "1. Protected page", "url": "https://dfdm943axhisa.cloudfront.net" }
-    ]
+    ],
+  "outputscreenshots":true,
+  "outputscreenflow":false
 }
 ```
+You can set `outputscreenshots` to `true` if you want the individual screenshots for each URL to be outputted. If this property isn't set, it will default to `false`.
+
+You can set `outputscreenflow` to `true` if you want the the screenflow PDF to be outputted. If this property isn't set, it will default to `true`.
 
 # Usage
 
