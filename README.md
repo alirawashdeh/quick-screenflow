@@ -2,6 +2,9 @@
 
 Quick Screenflow is a lightweight node project that produces simple screenflow diagrams in PDF format, based on a set of input URLs. It uses puppeteer and can screenshot pages that use basic authentication - making it perfect for producing screenflows from prototypes.
 
+Example output:
+
+![ScreenShot](screenshots.png)
 
 # Installation
 
@@ -19,11 +22,13 @@ Simple screenflow example, with three screens:
 
 ```
 {
-  "name": "Finding alirawashdeh on GitHub",
+  "name": "Step by step guide: finding the quick-screenflow repository on GitHub",
   "screens": [
     { "name": "1. Google", "url": "https://www.google.com" },
     { "name": "2. Google search", "url": "https://www.google.com/search?q=alirawashdeh%20github" },
-    { "name": "3. Github", "url": "https://github.com/alirawashdeh" }
+    { "name": "3. Github profile", "url": "https://github.com/alirawashdeh" },
+    { "name": "4. Github repositories", "url": "https://github.com/alirawashdeh?tab=repositories"},
+    { "name": "5. The quick-screenflow repo", "url": "https://github.com/alirawashdeh/quick-screenflow"}
   ]
 },
 ```
