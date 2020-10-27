@@ -1,15 +1,15 @@
 {
-  "name": "quick-screenshot",
+  "name": "quick-screenflow",
   "version": "1.0.0",
-  "description": "Quickly and easily screenshot a batch of web pages that use basic auth",
-  "main": "js/main.js",
+  "description": "Quickly and easily produce a screenflow PDF based on set of input URLs",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node js/main.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alirawashdeh/quick-screenshot.git"
+    "url": "git+https://github.com/alirawashdeh/quick-screenflow.git"
   },
   "author": "Ali Rawashdeh",
   "license": "ISC",

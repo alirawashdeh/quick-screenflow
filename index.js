@@ -1,7 +1,7 @@
-const config = require('../config.json')
-const screenshot = require('./screenshot.js')
-const saveScreenshots = require('./save.js')
-const createPDF = require('./pdf.js')
+const config = require('./config.json')
+const screenshot = require('./lib/screenshot.js')
+const saveScreenshots = require('./lib/save.js')
+const createPDF = require('./lib/pdf.js')
 
 const start = async () => {
   const numberOfBatches = config.length
