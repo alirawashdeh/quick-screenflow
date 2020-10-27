@@ -1,4 +1,4 @@
-# Introduction
+# Introduction 👋
 
 Quick Screenflow is a lightweight node project that produces simple screenflow diagrams in PDF format, based on a set of input URLs. It uses puppeteer and can screenshot pages that use basic authentication - making it perfect for producing screenflows from prototypes.
 
@@ -6,7 +6,7 @@ Example output:
 
 ![ScreenShot](screenshot.png)
 
-# Installation
+# Installation 📦
 
 ```
 git clone https://github.com/alirawashdeh/quick-screenflow.git
@@ -14,7 +14,7 @@ cd quick-screenflow
 npm install
 ```
 
-# Configuration
+# Configuration 🎚
 
 Update the `config.json` file to include all the URLs you need to screenshot.
 
@@ -51,7 +51,7 @@ You can set `outputscreenshots` to `true` if you want the individual screenshots
 
 You can set `outputscreenflow` to `true` if you want the the screenflow PDF to be outputted. If this property isn't set, it will default to `true`.
 
-# Usage
+# Usage 🏃‍♀️
 
 Run the project using:
 
@@ -61,6 +61,6 @@ npm start
 
 Outputted files will appear in the root of the folder.
 
-# Credits
+# Credits 👍
 This project is based on
 [puppeteer-examples](https://github.com/checkly/puppeteer-examples)
