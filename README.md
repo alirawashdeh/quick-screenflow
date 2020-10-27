@@ -53,11 +53,13 @@ You can set `outputscreenflow` to `true` if you want the the screenflow PDF to b
 
 # Usage
 
-Run the project using
+Run the project using:
 
 ```
 npm start
 ```
+
+Outputted files will appear in the root of the folder.
 
 # Credits
 This project is based on
