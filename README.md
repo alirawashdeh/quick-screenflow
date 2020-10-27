@@ -4,7 +4,7 @@ Quick Screenflow is a lightweight node project that produces simple screenflow d
 
 Example output:
 
-![ScreenShot](screenshots.png)
+![ScreenShot](screenshot.png)
 
 # Installation
 
