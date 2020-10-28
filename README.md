@@ -20,7 +20,7 @@ npm install
 
 Update the `config.json` file to include all the URLs you need to screenshot.
 
-Simple screenflow example, with three screens:
+Simple screenflow example:
 
 ```
 {
